@@ -1,0 +1,82 @@
+@media screen and (min-width: 480px)
+{
+	/*******************
+	Layout de 2 columnas
+	*******************/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+	/*******************
+	Matematicas del diseno a 3 columnas
+	3 * 5% (margins) = 15% in margins (the rest is for the images)
+	100% - 15% = 85%
+	85% / 3 = 28.333% 
+	*******************/
+
+	/*******************
+	Estilos Pagina Index: para la Galeria
+	*******************/
+
+	#galeria li {
+		width: 28.3333;
+	}
+
+	#galeria li:nth-child(3n+1) {
+		clear: left;
+	}
+
+	/*******************
+	Estilos para la Pagina About
+	*******************/
+
+	.profile-photo {
+		float: left;
+		margin: 0 5% 120px 0;
+	}
+
+}
+
+@media screen and (min-width: 660px)
+{
+	/*******************
+	Cabecera (header)
+	*******************/
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+}
